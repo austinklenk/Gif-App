@@ -1,0 +1,5 @@
+<div class="col-md-12">
+	<%= form_tag pic_index_path, :method => 'get' do %>
+  		<%= text_field_tag :search, params[:search], :placeholder => 'Enter your favorite tag to search', :class => 'form-control' %>
+	<% end %>
+</div><!-- /input-group -->
